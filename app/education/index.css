@@ -1,0 +1,8 @@
+.container-education {
+ height: 90vh;
+ display: block;
+ text-align: center;
+ font-weight: bold;
+ padding: 40px;
+ font-size: 30px;
+}

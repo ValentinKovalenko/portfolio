@@ -1,0 +1,23 @@
+.container-experience {
+  display: flex;
+  align-items: center;
+}
+
+.image-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 70px;
+}
+
+.main-experience {
+  font-size: 26px;
+  font-weight: bold;
+  width: 50%;
+  padding: 70px;
+}
+
+p {
+  padding-top: 10px;
+}

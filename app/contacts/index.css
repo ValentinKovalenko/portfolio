@@ -1,0 +1,21 @@
+.contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  font-size: 20px;
+  height: 70px;
+}
+
+.icons-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 400px;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
