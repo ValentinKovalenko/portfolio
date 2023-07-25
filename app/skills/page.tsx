@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import {child, container, skill1, skillsText} from "@/consts/consts";
+import {child, container, skillsText} from "@/consts/consts";
 import {motion} from "framer-motion";
 import './index.css'
 
