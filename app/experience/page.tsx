@@ -26,17 +26,17 @@ const Experience = () => {
           initial={{x: 50, opacity: 0,}}
           animate={{opacity: 1, x: 0}}
           transition={{duration: 1}}
-        >1. Sales manager 2010 - 2015.</motion.p>
+        >2010 - 2015 Sales manager.</motion.p>
         <motion.p
           initial={{x: 75, opacity: 0,}}
           animate={{opacity: 1, x: 0}}
           transition={{duration: 2}}
-        >2. Expert on the development of the regional Internet network in the Cherkasy region (company UNTC) 2015 - 2020</motion.p>
+        >2015 - 2020 Expert on the development of the regional Internet network in the Cherkasy region in company UNTC</motion.p>
         <motion.p
           initial={{x: 100, opacity: 0,}}
           animate={{opacity: 1, x: 0}}
           transition={{duration: 3}}
-        >3. React frontend developer (company Ekreative) 2021 - 2023. I have been in the company Ekreative React frontend developer from September 1st, 2021 till February 17th, 2023.</motion.p>
+        >From September 1st, 2021 till February 17th, 2023 React frontend developer in company Ekreative</motion.p>
       </div>
     </div>
   );
