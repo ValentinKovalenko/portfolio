@@ -4,6 +4,21 @@ export const lettersHead = Array.from(`Hello 👋 I'm Valentin Kovalenko
 
 export const skillsText = Array.from(`1. Javascript ★ ★ ★ ★ ☆\n2. Typescript ★ ★ ★ ★ ☆\n3. React Js ★ ★ ★ ★ ☆\n4. HTML/Css/Sass/Tailwind CSS ★ ★ ★ ★ ☆\n5. Redux Toolkit ★ ★ ★ ★ ☆\n6. React Testing Library ★ ★ ★ ☆ ☆\n7. React Hook Form ★ ★ ★ ☆ ☆\n8. GIT ★ ★ ★ ☆ ☆`)
 
+export const links = [
+  {label: '/', value: 'Home'},
+  {label: '/experience', value: 'Experience'},
+  {label: '/skills', value: 'Skills'},
+  {label: '/education', value: 'Education'},
+  {label: '/contacts', value: 'Contacts'},
+]
+
+export const textExperience = [
+  {id: 1, text: 'Employment history'},
+  {id: 2, text: '2010 - 2015 Sales manager.'},
+  {id: 3, text: '2015 - 2020 Expert on the development of the regional Internet network in the Cherkasy region in company UNTC'},
+  {id: 4, text: 'From September 1st, 2021 till February 17th, 2023 React frontend developer in company Ekreative'},
+]
+
 export const container = {
   hidden: {opacity: 0},
   visible: (i = 1) => ({
