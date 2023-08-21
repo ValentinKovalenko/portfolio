@@ -4,5 +4,38 @@
  text-align: center;
  font-weight: bold;
  padding: 40px;
- font-size: 30px;
+ font-size: 36px;
 }
+
+.image-education {
+ width: 50%;
+ height: 50%;
+ border-radius: 5%;
+}
+
+@media (max-width: 1536px) {
+ .container-education {
+  font-size: 32px;
+ }
+}
+
+@media (max-width: 1280px) {
+ .container-education {
+  font-size: 24px;
+ }
+ .image-education {
+  width: 60%;
+  height: 60%;
+ }
+}
+
+@media (max-width: 768px) {
+ .container-education {
+  font-size: 20px;
+ }
+ .image-education {
+  width: 60%;
+  height: 60%;
+ }
+}
+

@@ -12,7 +12,7 @@ const Skills = () => {
       animate="visible"
       className='container-skills'
     >
-      <div className='main-home'>
+      <div className='main-skills'>
         {skillsText.map((letter, index) => (
           <motion.span variants={child} key={index}>
             {letter === " " ? "\u00A0" : letter}

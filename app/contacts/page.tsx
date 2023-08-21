@@ -13,18 +13,18 @@ const Contacts = () => {
   return (
     <>
       <div className='contact'>
-        <motion.span
+        <motion.p
           variants={contactLeft}
           initial="hidden"
           animate="visible"
         >Phone number: 0972127066
-        </motion.span>
-        <motion.span
+        </motion.p>
+        <motion.p
           variants={contactRight}
           initial="hidden"
           animate="visible"
         >Email: valentin.kovalenko2288@gmail.com
-        </motion.span>
+        </motion.p>
       </div>
       <div className='icons-style'>
         <motion.div
@@ -33,7 +33,7 @@ const Contacts = () => {
           animate="visible"
           className='icon-group'
         >
-          <a href='tel: 0967036626'>
+          <a href='tel: 0972127066'>
             <Image src={phone} alt='' width={45}/>
           </a>
           <a href='mailto: valentin.kovalenko2288@gmail.com'>

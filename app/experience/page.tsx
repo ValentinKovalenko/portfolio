@@ -9,12 +9,12 @@ const Experience = () => {
   return (
     <div className='container-experience'>
       <motion.div
-        className='image-experience'
+        className='image-experience-container'
         initial={{opacity: 0, scale: 0}}
         animate={{opacity: 1, scale: 1}}
         transition={{duration: 1}}
       >
-        <Image style={{borderRadius: 10}} src={photo} alt='' width={400}></Image>
+        <Image className='image-experience' src={photo} alt=''></Image>
       </motion.div>
       <div className='main-experience'>
         {

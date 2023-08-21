@@ -13,9 +13,9 @@ const Links: React.FC<{label: string, value: string}> = ({label, value}) => {
 
     return (
         <div>
-            <Link className={active ? 'active-link' : 'link'}
-                href={label}
-            >{value}</Link>
+            <Link className={active ? 'active-link' : 'link'} href={label}>
+                {value}
+            </Link>
         </div>
     );
 };

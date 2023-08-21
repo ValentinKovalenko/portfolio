@@ -13,6 +13,7 @@ export default function Home() {
       animate="visible"
       className='container-home'
     >
+      <div className='container-home'>
       <div className='main-home'>
         {lettersHead.map((letter, index) => (
           <motion.span variants={child} key={index}>
@@ -20,8 +21,9 @@ export default function Home() {
           </motion.span>
         ))}
       </div>
-      <div className='image'>
-        <Image style={{borderRadius: 10}} width={400} src={home} alt=''/>
+      <div className='image-container'>
+        <Image className='image' src={home} alt=''/>
+      </div>
       </div>
     </motion.div>
   )

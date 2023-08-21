@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Merriweather } from 'next/font/google'
 import Header from "@/component/Header/page";
 
-const inter = Merriweather({ weight: "300", preload: false, })
+const inter = Merriweather({ weight: ['300'], preload: false, subsets: ['latin'], display: 'swap', })
 
 export const metadata: Metadata = {
   title: 'Valentin Kovalenko',

@@ -13,7 +13,7 @@ const Education = () => {
         animate={{opacity: 1, y: 0}}
         transition={{duration: 1}}
       >
-      <Image style={{borderRadius: 10}} width={500} src={university} alt=''/>
+      <Image className='image-education' src={university} alt=''/>
       </motion.div>
       <motion.div
         initial={{y: 50, opacity: 0,}}
