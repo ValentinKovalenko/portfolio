@@ -1,5 +1,5 @@
 'use client'
-import phone from '../../images/phone.png'
+import phone from '../../images/telephone_724664.png'
 import google from '../../images/google.png'
 import linkedin from '../../images/linkedin.png'
 import github from '../../images/github.png'
@@ -34,7 +34,7 @@ const Contacts = () => {
           className='icon-group'
         >
           <a href='tel: 0972127066'>
-            <Image src={phone} alt='' width={45}/>
+            <Image style={{color: 'white'}} src={phone} alt='' width={50}/>
           </a>
           <a href='mailto: valentin.kovalenko2288@gmail.com'>
             <Image src={google} alt='' width={60}/>
